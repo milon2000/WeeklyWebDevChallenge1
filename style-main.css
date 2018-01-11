@@ -1,0 +1,93 @@
+/*------------Typography-----------*/
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+/*-------------General styling----------*/
+
+body {
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 1);
+  font-size: 1.5em;
+}
+
+/*-----------Promo section-----------*/
+
+.masthead > img {
+  display: block;
+  margin-top: 2em;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-left: auto;
+  opacity: 0.3;
+  max-width: 100%;
+}
+
+/*-----------Buckets section-----------*/
+
+.bucket-border {
+  background: rgba(0, 0, 0, 0.23);
+  padding: 1em;
+  border-radius: 4px;
+}
+
+form {
+  background: #f4f4f4;
+  padding: 2em;
+  border-radius: 4px;
+}
+
+/*.site {
+	max-width: 50em;
+	margin: 0 auto;
+}*/
+
+/*---------Colophon section--------*/
+
+.colophon > img {
+  display: block;
+  margin-top: 2em;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-left: auto;
+  opacity: 0.3;
+  max-width: 100%;
+}
+
+/*--------Grid-------------------
+
+@supports (grid-area: auto) {
+  @media screen and (min-width: 50em) {
+
+  }
+}------------*/
+
+/*--------------Flex----------*/
+
+@media screen and (min-width: 700px) {
+	@supports (display: flex) {
+
+    .main-area {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .item {
+      width: 500px;
+    }
+
+	}
+}
